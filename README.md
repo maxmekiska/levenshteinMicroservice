@@ -1,6 +1,6 @@
 # Microservice Example
 
-This project demonstrates how to build a light-weight microservice. The example microservice can calculate the Levenshtein distance, a normalized indel similarity, hamming distance and jaro similarity. This was possible by using the levenshtein library:https://github.com/maxbachmann/Levenshtein.git.
+This project demonstrates how to build a light-weight microservice. The example microservice can calculate the Levenshtein distance, a normalized indel similarity, hamming distance and jaro similarity. This was possible by using the levenshtein library: https://github.com/maxbachmann/Levenshtein.git.
 
 ## What are Microservices?
 
@@ -38,7 +38,7 @@ The Levenshtein distance is a useful tool for comparing the similarity of two st
     - /distance/ratio/json
     - /distance/hamming/json
     - /distance/jaro/json
-- click on `Body`, select `raw` and choose `JSON`
+- Within Postman: click on `Body`, select `raw` and choose `JSON`
 - finally insert a json example and press send:
 
 example json:
